@@ -1,0 +1,185 @@
+/* // `xs` returns only a ruleset and no media query */
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+    .collapse .navbar-nav .nav-item .nav-link {
+        padding: 10px 15px 5px;
+        font-size: 15px;
+    }
+    .banner_part {
+        padding: 100px 0px 40px;
+    }
+    .banner_content h1 {
+        font-size: 85px;
+        padding-bottom: 30px;
+    }
+    .banner_content h1::after {
+    width: 298px;
+    left: 0px;
+    }
+    .pure_design_part {
+    padding: 40px 0px 60px;
+    }
+    .pure_part_content h3 {
+    font-size: 30px;
+    }
+    .pure_part_content p {
+    font-size: 18px;
+    text-align: justify;
+    }
+    .service_part_item {
+        margin-bottom: 20px;
+    }
+    .showcase_part {
+        padding: 40px 0px 80px;
+    }
+    .showcase_part_head h3 {
+    font-size: 20px;
+    }
+    .form_part_overlay {
+        padding: 40px 0px 60px;
+    }
+    .form_part_div form input[type=email], .form_part_div form input[type=text] {
+        width: 295px;
+    }
+    .form_part_div form textarea {
+        width: 295px;
+    }
+    .form_part_div form [type=submit] {
+        width: 100px;
+        font-size: 15px;
+        margin-left: 0px;
+    }
+    .copy_part p {
+        color: #999999;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 1.6;
+    }
+    .s_icon span a {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        margin-right: 5px;
+    }
+}
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .collapse .navbar-nav .nav-item .nav-link {
+        padding: 10px 15px 5px;
+        font-size: 15px;
+    }
+    .banner_part {
+        padding: 100px 0px 40px;
+    }
+    .banner_content h1 {
+        font-size: 85px;
+        padding-bottom: 30px;
+    }
+    .banner_content h1::after {
+    width: 495px;
+    left: 0px;
+    }
+    .pure_design_part {
+    padding: 40px 0px 60px;
+    }
+    .pure_part_content h3 {
+    font-size: 30px;
+    }
+    .pure_part_content p {
+    font-size: 18px;
+    text-align: justify;
+    }
+    .service_part_item {
+        margin-bottom: 20px;
+    }
+    .showcase_part {
+        padding: 40px 0px 80px;
+    }
+    .showcase_part_head h3 {
+    font-size: 20px;
+    }
+    .form_part_overlay {
+        padding: 40px 0px 60px;
+    }
+    .form_part_div form input[type=email], .form_part_div form input[type=text] {
+        width: 295px;
+    }
+    .form_part_div form textarea {
+        width: 295px;
+    }
+    .form_part_div form [type=submit] {
+        width: 100px;
+        font-size: 15px;
+        margin-left: 0px;
+    }
+    .copy_part p {
+        color: #999999;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 1.6;
+    }
+    .s_icon span a {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        margin-right: 5px;
+    }
+}
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .collapse .navbar-nav .nav-item .nav-link {
+        padding: 10px 15px 5px;
+        font-size: 15px;
+    }
+    .banner_content h1::after {
+        position: absolute;
+        width: 600px;
+        height: 3px;
+        background: #15a4fa;
+        bottom: 35px;
+        left: 40px;
+        content: '';
+    }
+    .service_part_item h5 {
+        color: #2d3950;
+        font-size: 18px;
+        font-weight: 400;
+        padding-bottom: 25px;
+        text-transform: capitalize;
+    }
+    .service_part_item p {
+       text-align: justify;
+    }
+}
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .banner_content h1::after {
+        position: absolute;
+        width: 600px;
+        height: 3px;
+        background: #15a4fa;
+        bottom: 35px;
+        left: 160px;
+        content: '';
+    }
+}
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (min-width: 1200px) and (max-width: 1399.98px){
+   
+}
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (min-width: 1400px) {
+    .banner_content h1::after {
+        position: absolute;
+        width: 600px;
+        height: 3px;
+        background: #15a4fa;
+        bottom: 35px;
+        left: 330px;
+        content: '';
+    }
+}
